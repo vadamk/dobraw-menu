@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "tags",
   "info": {
-    "name": "Tags"
+    "name": "Tags",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,7 +17,8 @@
     },
     "dishes": {
       "collection": "dish",
-      "via": "tag"
+      "via": "tags",
+      "dominant": true
     }
   }
 }

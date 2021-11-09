@@ -33,9 +33,9 @@
       "required": false,
       "pluginOptions": {}
     },
-    "tag": {
+    "tags": {
       "via": "dishes",
-      "model": "tags"
+      "collection": "tags"
     }
   }
 }
